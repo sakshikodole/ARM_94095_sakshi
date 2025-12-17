@@ -1,0 +1,10 @@
+17:45:05 **** Incremental Build of configuration Debug for project ledrunlefttoright.c ****
+make -j28 all 
+arm-none-eabi-size  ledrunlefttoright.c.elf 
+   text	   data	    bss	    dec	    hex	filename
+   1260	      4	   1564	   2828	    b0c	ledrunlefttoright.c.elf
+Finished building: default.size.stdout
+ 
+
+17:45:06 Build Finished. 0 errors, 0 warnings. (took 156ms)
+

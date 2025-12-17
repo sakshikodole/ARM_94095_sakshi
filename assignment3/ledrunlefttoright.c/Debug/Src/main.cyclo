@@ -1,0 +1,12 @@
+../Inc/system_stm32f4xx.h:128:20:DelayMs	2
+../Src/main.c:41:5:main	1
+../Src/main.c:53:6:led_init	1
+../Src/main.c:69:7:led_on1	1
+../Src/main.c:73:7:led_off1	1
+../Src/main.c:77:7:led_on2	1
+../Src/main.c:81:7:led_off2	1
+../Src/main.c:85:7:led_on3	1
+../Src/main.c:89:7:led_off3	1
+../Src/main.c:93:7:led_on4	1
+../Src/main.c:97:7:led_off4	1
+../Src/main.c:102:7:led_run_lr	1

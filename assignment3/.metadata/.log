@@ -13,3 +13,42 @@ Command-line arguments:  -os win32 -ws win32 -arch x86_64
 
 !ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2025-12-16 15:19:53.959
 !MESSAGE Started RMI Server, listening on port 41337
+!SESSION 2025-12-17 17:06:41.535 -----------------------------------------------
+eclipse.buildId=Version 1.19.0
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2025-12-17 17:06:50.226
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2025-12-17 17:06:50.227
+!MESSAGE Log4j2 initialized with config file C:\Users\sakshi\Desktop\internshipdata\ARM_94095_sakshi\assignment3\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2025-12-17 17:06:54.006
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-12-17 17:07:43.160
+!MESSAGE Indexed 'alternateledblink.c' (3 sources, 53 headers) in 1.14 sec: 1,954 declarations; 2,863 references; 0 unresolved inclusions; 2 syntax errors; 2 unresolved names (0.042%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-12-17 17:09:22.074
+!MESSAGE Indexed 'alternateledblink.c' (5 sources, 64 headers) in 0.401 sec: 3,425 declarations; 5,733 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.022%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-12-17 17:13:43.713
+!MESSAGE Indexed 'ledrunlefttoright.c' (3 sources, 53 headers) in 0.355 sec: 1,954 declarations; 2,863 references; 0 unresolved inclusions; 2 syntax errors; 2 unresolved names (0.042%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-12-17 17:15:33.568
+!MESSAGE Indexed 'ledrunlefttoright.c' (5 sources, 64 headers) in 0.321 sec: 3,451 declarations; 5,766 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.022%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-12-17 17:28:51.442
+!MESSAGE Indexed 'ledrunrighttoleft.c' (3 sources, 53 headers) in 0.159 sec: 1,954 declarations; 2,863 references; 0 unresolved inclusions; 2 syntax errors; 2 unresolved names (0.042%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-12-17 17:34:56.610
+!MESSAGE Indexed 'allledblink.c' (3 sources, 53 headers) in 0.303 sec: 1,954 declarations; 2,863 references; 0 unresolved inclusions; 2 syntax errors; 2 unresolved names (0.042%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-12-17 17:42:12.739
+!MESSAGE Indexed 'toggleled.c' (3 sources, 53 headers) in 0.247 sec: 1,954 declarations; 2,863 references; 0 unresolved inclusions; 2 syntax errors; 2 unresolved names (0.042%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-12-17 17:44:59.455
+!MESSAGE Indexed 'toggleled.c' (5 sources, 64 headers) in 0.307 sec: 3,423 declarations; 5,709 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.022%)

@@ -1,0 +1,493 @@
+17:08:51 **** Build of configuration Debug for project alternateledblink.c ****
+make -j28 all 
+arm-none-eabi-gcc -mcpu=cortex-m4 -g3 -DDEBUG -c -x assembler-with-cpp -MMD -MP -MF"Startup/startup_stm32f407vgtx.d" -MT"Startup/startup_stm32f407vgtx.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Startup/startup_stm32f407vgtx.o" "../Startup/startup_stm32f407vgtx.s"
+arm-none-eabi-gcc "../Src/itm.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/itm.d" -MT"Src/itm.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/itm.o"
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/main.o"
+arm-none-eabi-gcc "../Src/syscalls.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/syscalls.d" -MT"Src/syscalls.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/syscalls.o"
+arm-none-eabi-gcc "../Src/sysmem.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/sysmem.d" -MT"Src/sysmem.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/sysmem.o"
+arm-none-eabi-gcc "../Src/system_stm32f4xx.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/system_stm32f4xx.d" -MT"Src/system_stm32f4xx.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/system_stm32f4xx.o"
+../Src/main.c:27:4: warning: #warning "FPU is not initialized, but the project is compiling for an FPU. Please initialize the FPU before use." [-Wcpp]
+   27 |   #warning "FPU is not initialized, but the project is compiling for an FPU. Please initialize the FPU before use."
+      |    ^~~~~~~
+arm-none-eabi-gcc -o "alternateledblink.c.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\sakshi\Desktop\internshipdata\ARM_94095_sakshi\assignment3\alternateledblink.c\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="alternateledblink.c.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: alternateledblink.c.elf
+ 
+arm-none-eabi-size  alternateledblink.c.elf 
+arm-none-eabi-objdump -h -S alternateledblink.c.elf  > "alternateledblink.c.list"
+   text	   data	    bss	    dec	    hex	filename
+   1096	      4	   1564	   2664	    a68	alternateledblink.c.elf
+Finished building: default.size.stdout
+ 
+Finished building: alternateledblink.c.list
+ 
+17:09:28 **** Incremental Build of configuration Debug for project alternateledblink.c ****
+make -j28 all 
+arm-none-eabi-gcc -mcpu=cortex-m4 -g3 -DDEBUG -c -x assembler-with-cpp -MMD -MP -MF"Startup/startup_stm32f407vgtx.d" -MT"Startup/startup_stm32f407vgtx.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=soft -mthumb -o "Startup/startup_stm32f407vgtx.o" "../Startup/startup_stm32f407vgtx.s"
+arm-none-eabi-gcc "../Src/itm.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/itm.d" -MT"Src/itm.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=soft -mthumb -o "Src/itm.o"
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-gcc "../Src/syscalls.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/syscalls.d" -MT"Src/syscalls.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=soft -mthumb -o "Src/syscalls.o"
+arm-none-eabi-gcc "../Src/sysmem.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/sysmem.d" -MT"Src/sysmem.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=soft -mthumb -o "Src/sysmem.o"
+arm-none-eabi-gcc "../Src/system_stm32f4xx.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/system_stm32f4xx.d" -MT"Src/system_stm32f4xx.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=soft -mthumb -o "Src/system_stm32f4xx.o"
+arm-none-eabi-gcc -o "alternateledblink.c.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\sakshi\Desktop\internshipdata\ARM_94095_sakshi\assignment3\alternateledblink.c\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="alternateledblink.c.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: alternateledblink.c.elf
+ 
+arm-none-eabi-size  alternateledblink.c.elf 
+arm-none-eabi-objdump -h -S alternateledblink.c.elf  > "alternateledblink.c.list"
+   text	   data	    bss	    dec	    hex	filename
+   1064	      4	   1564	   2632	    a48	alternateledblink.c.elf
+Finished building: default.size.stdout
+ 
+Finished building: alternateledblink.c.list
+ 
+17:15:09 **** Incremental Build of configuration Debug for project alternateledblink.c ****
+make -j28 all 
+arm-none-eabi-size  alternateledblink.c.elf 
+   text	   data	    bss	    dec	    hex	filename
+   1064	      4	   1564	   2632	    a48	alternateledblink.c.elf
+Finished building: default.size.stdout
+ 
+17:15:10 **** Build of configuration Debug for project ledrunlefttoright.c ****
+make -j28 all 
+arm-none-eabi-gcc -mcpu=cortex-m4 -g3 -DDEBUG -c -x assembler-with-cpp -MMD -MP -MF"Startup/startup_stm32f407vgtx.d" -MT"Startup/startup_stm32f407vgtx.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Startup/startup_stm32f407vgtx.o" "../Startup/startup_stm32f407vgtx.s"
+arm-none-eabi-gcc "../Src/itm.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/itm.d" -MT"Src/itm.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/itm.o"
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/main.o"
+arm-none-eabi-gcc "../Src/syscalls.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/syscalls.d" -MT"Src/syscalls.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/syscalls.o"
+arm-none-eabi-gcc "../Src/sysmem.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/sysmem.d" -MT"Src/sysmem.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/sysmem.o"
+arm-none-eabi-gcc "../Src/system_stm32f4xx.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/system_stm32f4xx.d" -MT"Src/system_stm32f4xx.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/system_stm32f4xx.o"
+../Src/main.c:27:4: warning: #warning "FPU is not initialized, but the project is compiling for an FPU. Please initialize the FPU before use." [-Wcpp]
+   27 |   #warning "FPU is not initialized, but the project is compiling for an FPU. Please initialize the FPU before use."
+      |    ^~~~~~~
+../Src/main.c: In function 'main':
+../Src/main.c:42:1: warning: implicit declaration of function 'led_init' [-Wimplicit-function-declaration]
+   42 | led_init();
+      | ^~~~~~~~
+../Src/main.c: At top level:
+../Src/main.c:52:6: warning: conflicting types for 'led_init'; have 'void(void)'
+   52 | void led_init(void)
+      |      ^~~~~~~~
+../Src/main.c:42:1: note: previous implicit declaration of 'led_init' with type 'void(void)'
+   42 | led_init();
+      | ^~~~~~~~
+arm-none-eabi-gcc -o "ledrunlefttoright.c.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\sakshi\Desktop\internshipdata\ARM_94095_sakshi\assignment3\ledrunlefttoright.c\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="ledrunlefttoright.c.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: ledrunlefttoright.c.elf
+ 
+arm-none-eabi-size  ledrunlefttoright.c.elf 
+arm-none-eabi-objdump -h -S ledrunlefttoright.c.elf  > "ledrunlefttoright.c.list"
+   text	   data	    bss	    dec	    hex	filename
+   1316	      4	   1564	   2884	    b44	ledrunlefttoright.c.elf
+Finished building: default.size.stdout
+ 
+Finished building: ledrunlefttoright.c.list
+ 
+17:15:38 **** Incremental Build of configuration Debug for project alternateledblink.c ****
+make -j28 all 
+arm-none-eabi-size  alternateledblink.c.elf 
+   text	   data	    bss	    dec	    hex	filename
+   1064	      4	   1564	   2632	    a48	alternateledblink.c.elf
+Finished building: default.size.stdout
+ 
+17:15:38 **** Incremental Build of configuration Debug for project ledrunlefttoright.c ****
+make -j28 all 
+arm-none-eabi-gcc -mcpu=cortex-m4 -g3 -DDEBUG -c -x assembler-with-cpp -MMD -MP -MF"Startup/startup_stm32f407vgtx.d" -MT"Startup/startup_stm32f407vgtx.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=soft -mthumb -o "Startup/startup_stm32f407vgtx.o" "../Startup/startup_stm32f407vgtx.s"
+arm-none-eabi-gcc "../Src/itm.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/itm.d" -MT"Src/itm.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=soft -mthumb -o "Src/itm.o"
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-gcc "../Src/syscalls.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/syscalls.d" -MT"Src/syscalls.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=soft -mthumb -o "Src/syscalls.o"
+arm-none-eabi-gcc "../Src/sysmem.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/sysmem.d" -MT"Src/sysmem.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=soft -mthumb -o "Src/sysmem.o"
+arm-none-eabi-gcc "../Src/system_stm32f4xx.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/system_stm32f4xx.d" -MT"Src/system_stm32f4xx.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=soft -mthumb -o "Src/system_stm32f4xx.o"
+../Src/main.c: In function 'main':
+../Src/main.c:42:9: warning: implicit declaration of function 'led_init' [-Wimplicit-function-declaration]
+   42 |         led_init();
+      |         ^~~~~~~~
+../Src/main.c: At top level:
+../Src/main.c:52:6: warning: conflicting types for 'led_init'; have 'void(void)'
+   52 | void led_init(void)
+      |      ^~~~~~~~
+../Src/main.c:42:9: note: previous implicit declaration of 'led_init' with type 'void(void)'
+   42 |         led_init();
+      |         ^~~~~~~~
+arm-none-eabi-gcc -o "ledrunlefttoright.c.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\sakshi\Desktop\internshipdata\ARM_94095_sakshi\assignment3\ledrunlefttoright.c\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="ledrunlefttoright.c.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: ledrunlefttoright.c.elf
+ 
+arm-none-eabi-size  ledrunlefttoright.c.elf 
+arm-none-eabi-objdump -h -S ledrunlefttoright.c.elf  > "ledrunlefttoright.c.list"
+   text	   data	    bss	    dec	    hex	filename
+   1260	      4	   1564	   2828	    b0c	ledrunlefttoright.c.elf
+Finished building: default.size.stdout
+ 
+Finished building: ledrunlefttoright.c.list
+ 
+17:18:41 **** Incremental Build of configuration Debug for project alternateledblink.c ****
+make -j28 all 
+arm-none-eabi-size  alternateledblink.c.elf 
+   text	   data	    bss	    dec	    hex	filename
+   1064	      4	   1564	   2632	    a48	alternateledblink.c.elf
+Finished building: default.size.stdout
+ 
+17:18:41 **** Incremental Build of configuration Debug for project ledrunlefttoright.c ****
+make -j28 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=soft -mthumb -o "Src/main.o"
+../Src/main.c: In function 'main':
+../Src/main.c:42:1: warning: implicit declaration of function 'led_init' [-Wimplicit-function-declaration]
+   42 | led_init();
+      | ^~~~~~~~
+../Src/main.c: At top level:
+../Src/main.c:52:6: warning: conflicting types for 'led_init'; have 'void(void)'
+   52 | void led_init(void)
+      |      ^~~~~~~~
+../Src/main.c:42:1: note: previous implicit declaration of 'led_init' with type 'void(void)'
+   42 | led_init();
+      | ^~~~~~~~
+arm-none-eabi-gcc -o "ledrunlefttoright.c.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\sakshi\Desktop\internshipdata\ARM_94095_sakshi\assignment3\ledrunlefttoright.c\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="ledrunlefttoright.c.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: ledrunlefttoright.c.elf
+ 
+arm-none-eabi-size  ledrunlefttoright.c.elf 
+arm-none-eabi-objdump -h -S ledrunlefttoright.c.elf  > "ledrunlefttoright.c.list"
+   text	   data	    bss	    dec	    hex	filename
+   1260	      4	   1564	   2828	    b0c	ledrunlefttoright.c.elf
+Finished building: default.size.stdout
+ 
+Finished building: ledrunlefttoright.c.list
+ 
+17:21:12 **** Incremental Build of configuration Debug for project alternateledblink.c ****
+make -j28 all 
+arm-none-eabi-size  alternateledblink.c.elf 
+   text	   data	    bss	    dec	    hex	filename
+   1064	      4	   1564	   2632	    a48	alternateledblink.c.elf
+Finished building: default.size.stdout
+ 
+17:21:12 **** Incremental Build of configuration Debug for project ledrunlefttoright.c ****
+make -j28 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=soft -mthumb -o "Src/main.o"
+../Src/main.c: In function 'main':
+../Src/main.c:42:9: warning: implicit declaration of function 'led_init' [-Wimplicit-function-declaration]
+   42 |         led_init();
+      |         ^~~~~~~~
+../Src/main.c: At top level:
+../Src/main.c:52:7: warning: conflicting types for 'led_init'; have 'void(void)'
+   52 |  void led_init(void)
+      |       ^~~~~~~~
+../Src/main.c:42:9: note: previous implicit declaration of 'led_init' with type 'void(void)'
+   42 |         led_init();
+      |         ^~~~~~~~
+arm-none-eabi-gcc -o "ledrunlefttoright.c.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\sakshi\Desktop\internshipdata\ARM_94095_sakshi\assignment3\ledrunlefttoright.c\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="ledrunlefttoright.c.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: ledrunlefttoright.c.elf
+ 
+arm-none-eabi-size  ledrunlefttoright.c.elf 
+arm-none-eabi-objdump -h -S ledrunlefttoright.c.elf  > "ledrunlefttoright.c.list"
+   text	   data	    bss	    dec	    hex	filename
+   1260	      4	   1564	   2828	    b0c	ledrunlefttoright.c.elf
+Finished building: default.size.stdout
+ 
+Finished building: ledrunlefttoright.c.list
+ 
+17:21:48 **** Incremental Build of configuration Debug for project alternateledblink.c ****
+make -j28 all 
+arm-none-eabi-size  alternateledblink.c.elf 
+   text	   data	    bss	    dec	    hex	filename
+   1064	      4	   1564	   2632	    a48	alternateledblink.c.elf
+Finished building: default.size.stdout
+ 
+17:21:49 **** Incremental Build of configuration Debug for project ledrunlefttoright.c ****
+make -j28 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=soft -mthumb -o "Src/main.o"
+../Src/main.c: In function 'main':
+../Src/main.c:42:9: warning: implicit declaration of function 'led_init' [-Wimplicit-function-declaration]
+   42 |         led_init();
+      |         ^~~~~~~~
+../Src/main.c: At top level:
+../Src/main.c:52:7: warning: conflicting types for 'led_init'; have 'void()'
+   52 |  void led_init()
+      |       ^~~~~~~~
+../Src/main.c:42:9: note: previous implicit declaration of 'led_init' with type 'void()'
+   42 |         led_init();
+      |         ^~~~~~~~
+arm-none-eabi-gcc -o "ledrunlefttoright.c.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\sakshi\Desktop\internshipdata\ARM_94095_sakshi\assignment3\ledrunlefttoright.c\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="ledrunlefttoright.c.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: ledrunlefttoright.c.elf
+ 
+arm-none-eabi-size  ledrunlefttoright.c.elf 
+arm-none-eabi-objdump -h -S ledrunlefttoright.c.elf  > "ledrunlefttoright.c.list"
+   text	   data	    bss	    dec	    hex	filename
+   1260	      4	   1564	   2828	    b0c	ledrunlefttoright.c.elf
+Finished building: default.size.stdout
+ 
+Finished building: ledrunlefttoright.c.list
+ 
+17:25:58 **** Incremental Build of configuration Debug for project alternateledblink.c ****
+make -j28 all 
+arm-none-eabi-size  alternateledblink.c.elf 
+   text	   data	    bss	    dec	    hex	filename
+   1064	      4	   1564	   2632	    a48	alternateledblink.c.elf
+Finished building: default.size.stdout
+ 
+17:25:58 **** Incremental Build of configuration Debug for project ledrunlefttoright.c ****
+make -j28 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=soft -mthumb -o "Src/main.o"
+../Src/main.c: In function 'main':
+../Src/main.c:42:9: warning: implicit declaration of function 'led_init' [-Wimplicit-function-declaration]
+   42 |         led_init()
+      |         ^~~~~~~~
+../Src/main.c:42:19: error: expected ';' before 'while'
+   42 |         led_init()
+      |                   ^
+      |                   ;
+   43 |         while(1)
+      |         ~~~~~      
+../Src/main.c: At top level:
+../Src/main.c:50:7: warning: conflicting types for 'led_init'; have 'void()'
+   50 |  void led_init()
+      |       ^~~~~~~~
+../Src/main.c:42:9: note: previous implicit declaration of 'led_init' with type 'void()'
+   42 |         led_init()
+      |         ^~~~~~~~
+make: *** [Src/subdir.mk:31: Src/main.o] Error 1
+"make -j28 all" terminated with exit code 2. Build might be incomplete.
+17:26:06 **** Incremental Build of configuration Debug for project alternateledblink.c ****
+make -j28 all 
+arm-none-eabi-size  alternateledblink.c.elf 
+   text	   data	    bss	    dec	    hex	filename
+   1064	      4	   1564	   2632	    a48	alternateledblink.c.elf
+Finished building: default.size.stdout
+ 
+17:26:07 **** Incremental Build of configuration Debug for project ledrunlefttoright.c ****
+make -j28 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=soft -mthumb -o "Src/main.o"
+../Src/main.c: In function 'main':
+../Src/main.c:42:9: warning: implicit declaration of function 'led_init' [-Wimplicit-function-declaration]
+   42 |         led_init();
+      |         ^~~~~~~~
+../Src/main.c: At top level:
+../Src/main.c:50:7: warning: conflicting types for 'led_init'; have 'void()'
+   50 |  void led_init()
+      |       ^~~~~~~~
+../Src/main.c:42:9: note: previous implicit declaration of 'led_init' with type 'void()'
+   42 |         led_init();
+      |         ^~~~~~~~
+arm-none-eabi-gcc -o "ledrunlefttoright.c.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\sakshi\Desktop\internshipdata\ARM_94095_sakshi\assignment3\ledrunlefttoright.c\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="ledrunlefttoright.c.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: ledrunlefttoright.c.elf
+ 
+arm-none-eabi-size  ledrunlefttoright.c.elf 
+arm-none-eabi-objdump -h -S ledrunlefttoright.c.elf  > "ledrunlefttoright.c.list"
+   text	   data	    bss	    dec	    hex	filename
+   1260	      4	   1564	   2828	    b0c	ledrunlefttoright.c.elf
+Finished building: default.size.stdout
+ 
+Finished building: ledrunlefttoright.c.list
+ 
+17:26:32 **** Incremental Build of configuration Debug for project alternateledblink.c ****
+make -j28 all 
+arm-none-eabi-size  alternateledblink.c.elf 
+   text	   data	    bss	    dec	    hex	filename
+   1064	      4	   1564	   2632	    a48	alternateledblink.c.elf
+Finished building: default.size.stdout
+ 
+17:26:32 **** Incremental Build of configuration Debug for project ledrunlefttoright.c ****
+make -j28 all 
+arm-none-eabi-size  ledrunlefttoright.c.elf 
+   text	   data	    bss	    dec	    hex	filename
+   1260	      4	   1564	   2828	    b0c	ledrunlefttoright.c.elf
+Finished building: default.size.stdout
+ 
+17:33:08 **** Incremental Build of configuration Debug for project alternateledblink.c ****
+make -j28 all 
+arm-none-eabi-size  alternateledblink.c.elf 
+   text	   data	    bss	    dec	    hex	filename
+   1064	      4	   1564	   2632	    a48	alternateledblink.c.elf
+Finished building: default.size.stdout
+ 
+17:33:09 **** Incremental Build of configuration Debug for project ledrunlefttoright.c ****
+make -j28 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-gcc -o "ledrunlefttoright.c.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\sakshi\Desktop\internshipdata\ARM_94095_sakshi\assignment3\ledrunlefttoright.c\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="ledrunlefttoright.c.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: ledrunlefttoright.c.elf
+ 
+arm-none-eabi-size  ledrunlefttoright.c.elf 
+arm-none-eabi-objdump -h -S ledrunlefttoright.c.elf  > "ledrunlefttoright.c.list"
+   text	   data	    bss	    dec	    hex	filename
+   1260	      4	   1564	   2828	    b0c	ledrunlefttoright.c.elf
+Finished building: default.size.stdout
+ 
+Finished building: ledrunlefttoright.c.list
+ 
+17:33:09 **** Build of configuration Debug for project ledrunrighttoleft.c ****
+make -j28 all 
+arm-none-eabi-gcc -mcpu=cortex-m4 -g3 -DDEBUG -c -x assembler-with-cpp -MMD -MP -MF"Startup/startup_stm32f407vgtx.d" -MT"Startup/startup_stm32f407vgtx.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Startup/startup_stm32f407vgtx.o" "../Startup/startup_stm32f407vgtx.s"
+arm-none-eabi-gcc "../Src/itm.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/itm.d" -MT"Src/itm.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/itm.o"
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/main.o"
+arm-none-eabi-gcc "../Src/syscalls.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/syscalls.d" -MT"Src/syscalls.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/syscalls.o"
+arm-none-eabi-gcc "../Src/sysmem.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/sysmem.d" -MT"Src/sysmem.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/sysmem.o"
+arm-none-eabi-gcc "../Src/system_stm32f4xx.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/system_stm32f4xx.d" -MT"Src/system_stm32f4xx.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/system_stm32f4xx.o"
+../Src/main.c:27:4: warning: #warning "FPU is not initialized, but the project is compiling for an FPU. Please initialize the FPU before use." [-Wcpp]
+   27 |   #warning "FPU is not initialized, but the project is compiling for an FPU. Please initialize the FPU before use."
+      |    ^~~~~~~
+arm-none-eabi-gcc -o "ledrunrighttoleft.c.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\sakshi\Desktop\internshipdata\ARM_94095_sakshi\assignment3\ledrunrighttoleft.c\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="ledrunrighttoleft.c.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: ledrunrighttoleft.c.elf
+ 
+arm-none-eabi-size  ledrunrighttoleft.c.elf 
+arm-none-eabi-objdump -h -S ledrunrighttoleft.c.elf  > "ledrunrighttoleft.c.list"
+   text	   data	    bss	    dec	    hex	filename
+   1072	      4	   1564	   2640	    a50	ledrunrighttoleft.c.elf
+Finished building: default.size.stdout
+ 
+Finished building: ledrunrighttoleft.c.list
+ 
+17:33:21 **** Incremental Build of configuration Debug for project alternateledblink.c ****
+make -j28 all 
+arm-none-eabi-size  alternateledblink.c.elf 
+   text	   data	    bss	    dec	    hex	filename
+   1064	      4	   1564	   2632	    a48	alternateledblink.c.elf
+Finished building: default.size.stdout
+ 
+17:33:21 **** Incremental Build of configuration Debug for project ledrunlefttoright.c ****
+make -j28 all 
+arm-none-eabi-size  ledrunlefttoright.c.elf 
+   text	   data	    bss	    dec	    hex	filename
+   1260	      4	   1564	   2828	    b0c	ledrunlefttoright.c.elf
+Finished building: default.size.stdout
+ 
+17:33:22 **** Incremental Build of configuration Debug for project ledrunrighttoleft.c ****
+make -j28 all 
+arm-none-eabi-size  ledrunrighttoleft.c.elf 
+   text	   data	    bss	    dec	    hex	filename
+   1072	      4	   1564	   2640	    a50	ledrunrighttoleft.c.elf
+Finished building: default.size.stdout
+ 
+17:39:43 **** Build of configuration Debug for project allledblink.c ****
+make -j28 all 
+arm-none-eabi-gcc -mcpu=cortex-m4 -g3 -DDEBUG -c -x assembler-with-cpp -MMD -MP -MF"Startup/startup_stm32f407vgtx.d" -MT"Startup/startup_stm32f407vgtx.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Startup/startup_stm32f407vgtx.o" "../Startup/startup_stm32f407vgtx.s"
+arm-none-eabi-gcc "../Src/itm.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/itm.d" -MT"Src/itm.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/itm.o"
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/main.o"
+arm-none-eabi-gcc "../Src/syscalls.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/syscalls.d" -MT"Src/syscalls.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/syscalls.o"
+arm-none-eabi-gcc "../Src/sysmem.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/sysmem.d" -MT"Src/sysmem.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/sysmem.o"
+arm-none-eabi-gcc "../Src/system_stm32f4xx.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/system_stm32f4xx.d" -MT"Src/system_stm32f4xx.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/system_stm32f4xx.o"
+../Src/main.c:27:4: warning: #warning "FPU is not initialized, but the project is compiling for an FPU. Please initialize the FPU before use." [-Wcpp]
+   27 |   #warning "FPU is not initialized, but the project is compiling for an FPU. Please initialize the FPU before use."
+      |    ^~~~~~~
+arm-none-eabi-gcc -o "allledblink.c.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\sakshi\Desktop\internshipdata\ARM_94095_sakshi\assignment3\allledblink.c\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="allledblink.c.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: allledblink.c.elf
+ 
+arm-none-eabi-size  allledblink.c.elf 
+arm-none-eabi-objdump -h -S allledblink.c.elf  > "allledblink.c.list"
+   text	   data	    bss	    dec	    hex	filename
+   1072	      4	   1564	   2640	    a50	allledblink.c.elf
+Finished building: default.size.stdout
+ 
+Finished building: allledblink.c.list
+ 
+17:39:44 **** Incremental Build of configuration Debug for project alternateledblink.c ****
+make -j28 all 
+arm-none-eabi-size  alternateledblink.c.elf 
+   text	   data	    bss	    dec	    hex	filename
+   1064	      4	   1564	   2632	    a48	alternateledblink.c.elf
+Finished building: default.size.stdout
+ 
+17:39:44 **** Incremental Build of configuration Debug for project ledrunlefttoright.c ****
+make -j28 all 
+arm-none-eabi-size  ledrunlefttoright.c.elf 
+   text	   data	    bss	    dec	    hex	filename
+   1260	      4	   1564	   2828	    b0c	ledrunlefttoright.c.elf
+Finished building: default.size.stdout
+ 
+17:39:45 **** Incremental Build of configuration Debug for project ledrunrighttoleft.c ****
+make -j28 all 
+arm-none-eabi-size  ledrunrighttoleft.c.elf 
+   text	   data	    bss	    dec	    hex	filename
+   1072	      4	   1564	   2640	    a50	ledrunrighttoleft.c.elf
+Finished building: default.size.stdout
+ 
+17:44:46 **** Incremental Build of configuration Debug for project allledblink.c ****
+make -j28 all 
+arm-none-eabi-size  allledblink.c.elf 
+   text	   data	    bss	    dec	    hex	filename
+   1072	      4	   1564	   2640	    a50	allledblink.c.elf
+Finished building: default.size.stdout
+ 
+17:44:46 **** Incremental Build of configuration Debug for project alternateledblink.c ****
+make -j28 all 
+arm-none-eabi-size  alternateledblink.c.elf 
+   text	   data	    bss	    dec	    hex	filename
+   1064	      4	   1564	   2632	    a48	alternateledblink.c.elf
+Finished building: default.size.stdout
+ 
+17:44:47 **** Incremental Build of configuration Debug for project ledrunlefttoright.c ****
+make -j28 all 
+arm-none-eabi-size  ledrunlefttoright.c.elf 
+   text	   data	    bss	    dec	    hex	filename
+   1260	      4	   1564	   2828	    b0c	ledrunlefttoright.c.elf
+Finished building: default.size.stdout
+ 
+17:44:47 **** Incremental Build of configuration Debug for project ledrunrighttoleft.c ****
+make -j28 all 
+arm-none-eabi-size  ledrunrighttoleft.c.elf 
+   text	   data	    bss	    dec	    hex	filename
+   1072	      4	   1564	   2640	    a50	ledrunrighttoleft.c.elf
+Finished building: default.size.stdout
+ 
+17:44:48 **** Build of configuration Debug for project toggleled.c ****
+make -j28 all 
+arm-none-eabi-gcc -mcpu=cortex-m4 -g3 -DDEBUG -c -x assembler-with-cpp -MMD -MP -MF"Startup/startup_stm32f407vgtx.d" -MT"Startup/startup_stm32f407vgtx.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Startup/startup_stm32f407vgtx.o" "../Startup/startup_stm32f407vgtx.s"
+arm-none-eabi-gcc "../Src/itm.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/itm.d" -MT"Src/itm.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/itm.o"
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/main.o"
+arm-none-eabi-gcc "../Src/syscalls.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/syscalls.d" -MT"Src/syscalls.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/syscalls.o"
+arm-none-eabi-gcc "../Src/sysmem.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/sysmem.d" -MT"Src/sysmem.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/sysmem.o"
+arm-none-eabi-gcc "../Src/system_stm32f4xx.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/system_stm32f4xx.d" -MT"Src/system_stm32f4xx.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/system_stm32f4xx.o"
+../Src/main.c:27:4: warning: #warning "FPU is not initialized, but the project is compiling for an FPU. Please initialize the FPU before use." [-Wcpp]
+   27 |   #warning "FPU is not initialized, but the project is compiling for an FPU. Please initialize the FPU before use."
+      |    ^~~~~~~
+arm-none-eabi-gcc -o "toggleled.c.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\sakshi\Desktop\internshipdata\ARM_94095_sakshi\assignment3\toggleled.c\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="toggleled.c.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: toggleled.c.elf
+ 
+arm-none-eabi-size  toggleled.c.elf 
+arm-none-eabi-objdump -h -S toggleled.c.elf  > "toggleled.c.list"
+   text	   data	    bss	    dec	    hex	filename
+   1028	      4	   1564	   2596	    a24	toggleled.c.elf
+Finished building: default.size.stdout
+ 
+Finished building: toggleled.c.list
+ 
+17:45:05 **** Incremental Build of configuration Debug for project allledblink.c ****
+make -j28 all 
+arm-none-eabi-size  allledblink.c.elf 
+   text	   data	    bss	    dec	    hex	filename
+   1072	      4	   1564	   2640	    a50	allledblink.c.elf
+Finished building: default.size.stdout
+ 
+17:45:05 **** Incremental Build of configuration Debug for project alternateledblink.c ****
+make -j28 all 
+arm-none-eabi-size  alternateledblink.c.elf 
+   text	   data	    bss	    dec	    hex	filename
+   1064	      4	   1564	   2632	    a48	alternateledblink.c.elf
+Finished building: default.size.stdout
+ 
+17:45:05 **** Incremental Build of configuration Debug for project ledrunlefttoright.c ****
+make -j28 all 
+arm-none-eabi-size  ledrunlefttoright.c.elf 
+   text	   data	    bss	    dec	    hex	filename
+   1260	      4	   1564	   2828	    b0c	ledrunlefttoright.c.elf
+Finished building: default.size.stdout
+ 
+17:45:06 **** Incremental Build of configuration Debug for project ledrunrighttoleft.c ****
+make -j28 all 
+arm-none-eabi-size  ledrunrighttoleft.c.elf 
+   text	   data	    bss	    dec	    hex	filename
+   1072	      4	   1564	   2640	    a50	ledrunrighttoleft.c.elf
+Finished building: default.size.stdout
+ 
+17:45:06 **** Incremental Build of configuration Debug for project toggleled.c ****
+make -j28 all 
+arm-none-eabi-gcc -mcpu=cortex-m4 -g3 -DDEBUG -c -x assembler-with-cpp -MMD -MP -MF"Startup/startup_stm32f407vgtx.d" -MT"Startup/startup_stm32f407vgtx.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=soft -mthumb -o "Startup/startup_stm32f407vgtx.o" "../Startup/startup_stm32f407vgtx.s"
+arm-none-eabi-gcc "../Src/itm.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/itm.d" -MT"Src/itm.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=soft -mthumb -o "Src/itm.o"
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-gcc "../Src/syscalls.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/syscalls.d" -MT"Src/syscalls.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=soft -mthumb -o "Src/syscalls.o"
+arm-none-eabi-gcc "../Src/sysmem.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/sysmem.d" -MT"Src/sysmem.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=soft -mthumb -o "Src/sysmem.o"
+arm-none-eabi-gcc "../Src/system_stm32f4xx.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/system_stm32f4xx.d" -MT"Src/system_stm32f4xx.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=soft -mthumb -o "Src/system_stm32f4xx.o"
+arm-none-eabi-gcc -o "toggleled.c.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\sakshi\Desktop\internshipdata\ARM_94095_sakshi\assignment3\toggleled.c\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="toggleled.c.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: toggleled.c.elf
+ 
+arm-none-eabi-size  toggleled.c.elf 
+arm-none-eabi-objdump -h -S toggleled.c.elf  > "toggleled.c.list"
+   text	   data	    bss	    dec	    hex	filename
+   1000	      4	   1564	   2568	    a08	toggleled.c.elf
+Finished building: default.size.stdout
+ 
+Finished building: toggleled.c.list
+ 
