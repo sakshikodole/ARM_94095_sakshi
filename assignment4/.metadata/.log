@@ -1,0 +1,138 @@
+!SESSION 2025-12-18 08:48:57.552 -----------------------------------------------
+eclipse.buildId=Version 1.19.0
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2025-12-18 08:49:28.859
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2025-12-18 08:49:28.861
+!MESSAGE Log4j2 initialized with config file C:\Users\sakshi\Desktop\internshipdata\ARM_94095_sakshi\assignment4\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2025-12-18 08:49:31.625
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-12-18 08:50:53.576
+!MESSAGE Indexed 'Led.c' (6 sources, 62 headers) in 1.65 sec: 3,276 declarations; 4,802 references; 6 unresolved inclusions; 36 syntax errors; 737 unresolved names (8.4%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-12-18 08:51:23.872
+!MESSAGE Indexed 'Switch.c' (7 sources, 65 headers) in 0.559 sec: 3,428 declarations; 4,997 references; 6 unresolved inclusions; 36 syntax errors; 737 unresolved names (8%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-12-18 08:53:53.418
+!MESSAGE Indexed 'Led_genric.c' (6 sources, 62 headers) in 0.459 sec: 3,276 declarations; 4,816 references; 6 unresolved inclusions; 36 syntax errors; 737 unresolved names (8.3%)
+!SESSION 2025-12-18 08:55:42.969 -----------------------------------------------
+eclipse.buildId=Version 1.19.0
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2025-12-18 08:56:11.181
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2025-12-18 08:56:11.182
+!MESSAGE Log4j2 initialized with config file C:\Users\sakshi\Desktop\internshipdata\ARM_94095_sakshi\assignment4\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2025-12-18 08:56:15.139
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-12-18 08:57:57.620
+!MESSAGE Indexed 'gpioswitchcontroll.c' (3 sources, 53 headers) in 1.24 sec: 1,954 declarations; 2,863 references; 0 unresolved inclusions; 2 syntax errors; 2 unresolved names (0.042%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-12-18 09:25:15.129
+!MESSAGE Indexed 'gpioswitchcontroll.c' (6 sources, 65 headers) in 0.393 sec: 3,433 declarations; 5,761 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.022%)
+!SESSION 2025-12-18 10:19:20.977 -----------------------------------------------
+eclipse.buildId=Version 1.19.0
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.core.resources 2 10035 2025-12-18 10:19:25.508
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2025-12-18 10:19:29.430
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2025-12-18 10:19:29.431
+!MESSAGE Log4j2 initialized with config file C:\Users\sakshi\Desktop\internshipdata\ARM_94095_sakshi\assignment4\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2025-12-18 10:19:34.172
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-12-18 10:23:40.365
+!MESSAGE Indexed 'toggleledswitch.c' (3 sources, 53 headers) in 0.971 sec: 1,954 declarations; 2,863 references; 0 unresolved inclusions; 2 syntax errors; 2 unresolved names (0.042%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-12-18 10:43:14.328
+!MESSAGE Indexed 'toggleledswitch.c' (7 sources, 65 headers) in 0.415 sec: 3,431 declarations; 5,734 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.022%)
+
+!ENTRY com.st.stm32cube.ide.mcu.debug.launch 2 0 2025-12-18 10:48:08.168
+!MESSAGE Won't launch debug session since we failed to locate the binary.
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-12-18 10:54:27.680
+!MESSAGE Indexed 'toggleledswitch.c' (10 sources, 63 headers) in 0.904 sec: 3,368 declarations; 5,829 references; 0 unresolved inclusions; 1 syntax errors; 4 unresolved names (0.043%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-12-18 10:56:03.609
+!MESSAGE Indexed 'toggleledswitch.c' (2 sources, 53 headers) in 0.483 sec: 1,952 declarations; 2,861 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.042%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-12-18 11:14:12.209
+!MESSAGE Indexed 'toggleledswitch.c' (6 sources, 65 headers) in 0.335 sec: 3,429 declarations; 5,725 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.022%)
+
+!ENTRY com.st.stm32cube.ide.mcu.debug.launch 2 0 2025-12-18 11:14:39.631
+!MESSAGE Won't launch debug session since we failed to locate the binary.
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-12-18 11:23:58.806
+!MESSAGE Indexed 'sequenceled.c' (2 sources, 53 headers) in 0.248 sec: 1,952 declarations; 2,861 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.042%)
+!SESSION 2025-12-18 11:31:12.160 -----------------------------------------------
+eclipse.buildId=Version 1.19.0
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.core.resources 2 10035 2025-12-18 11:31:16.634
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2025-12-18 11:31:19.719
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2025-12-18 11:31:19.720
+!MESSAGE Log4j2 initialized with config file C:\Users\sakshi\Desktop\internshipdata\ARM_94095_sakshi\assignment4\.metadata\.log4j2.xml
+!SESSION 2025-12-18 11:57:36.515 -----------------------------------------------
+eclipse.buildId=Version 1.19.0
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.core.resources 2 10035 2025-12-18 11:57:41.287
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2025-12-18 11:57:45.574
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2025-12-18 11:57:45.575
+!MESSAGE Log4j2 initialized with config file C:\Users\sakshi\Desktop\internshipdata\ARM_94095_sakshi\assignment4\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2025-12-18 11:57:51.123
+!MESSAGE Started RMI Server, listening on port 41337
+!SESSION 2025-12-18 13:58:40.089 -----------------------------------------------
+eclipse.buildId=Version 1.19.0
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.core.resources 2 10035 2025-12-18 13:58:44.347
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2025-12-18 13:58:48.463
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2025-12-18 13:58:48.465
+!MESSAGE Log4j2 initialized with config file C:\Users\sakshi\Desktop\internshipdata\ARM_94095_sakshi\assignment4\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2025-12-18 13:58:53.664
+!MESSAGE Started RMI Server, listening on port 41337
