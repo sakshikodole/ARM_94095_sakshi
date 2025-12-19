@@ -60,7 +60,7 @@ main-build: sequenceled.c.elf secondary-outputs
 
 # Tool invocations
 sequenceled.c.elf sequenceled.c.map: $(OBJS) $(USER_OBJS) C:\Users\sakshi\Desktop\internshipdata\ARM_94095_sakshi\assignment4\sequenceled.c\STM32F407VGTX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-gcc -o "sequenceled.c.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"C:\Users\sakshi\Desktop\internshipdata\ARM_94095_sakshi\assignment4\sequenceled.c\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="sequenceled.c.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+	arm-none-eabi-gcc -o "sequenceled.c.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"C:\Users\sakshi\Desktop\internshipdata\ARM_94095_sakshi\assignment4\sequenceled.c\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="sequenceled.c.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 
