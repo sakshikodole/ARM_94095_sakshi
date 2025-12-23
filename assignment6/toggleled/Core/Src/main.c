@@ -18,7 +18,7 @@
 /* USER CODE END Header */
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
-
+#define GPIO_PIN_NO
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
 
@@ -61,11 +61,7 @@ static void MX_GPIO_Init(void);
   * @brief  The application entry point.
   * @retval int
   */
-#define LED1GPIOD GPIOD
-#define LED1_12 GPIO_PIN_12
-#define LED1_13 GPIO_PIN_13
-#define LED1_14 GPIO_PIN_14
-#define LED1_15 GPIO_PIN_15
+
 int main(void)
 {
 
@@ -100,15 +96,8 @@ int main(void)
   while (1)
   {
     /* USER CODE END WHILE */
-	  HAL_GPIO_WritePin( LED1GPIOD,LED1_12 ,GPIO_PIN_SET);
-	  HAL_GPIO_WritePin( LED1GPIOD,LED1_13 ,GPIO_PIN_RESET);
-	  HAL_GPIO_WritePin( LED1GPIOD,LED1_14 ,GPIO_PIN_SET);
-	  HAL_GPIO_WritePin( LED1GPIOD,LED1_15 ,GPIO_PIN_RESET);
+	  GPIOD->ODR ^ = (GPIO_PIN_12|GPIO_PIN_13|GPIO_PIN_14|GPIO_PIN_15);
 	  HAL_Delay(1000);
-	  HAL_GPIO_WritePin( LED1GPIOD,LED1_12 ,GPIO_PIN_RESET);
-	  HAL_GPIO_WritePin( LED1GPIOD,LED1_13 ,GPIO_PIN_SET);
-	  HAL_GPIO_WritePin( LED1GPIOD,LED1_14 ,GPIO_PIN_RESET);
-	  HAL_GPIO_WritePin( LED1GPIOD,LED1_15 ,GPIO_PIN_SET);
 
     /* USER CODE BEGIN 3 */
   }
