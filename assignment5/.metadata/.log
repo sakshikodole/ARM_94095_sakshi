@@ -44,3 +44,6 @@ java.lang.Exception: Resource '/Led_switch_exti0' does not exist.
 
 !ENTRY org.eclipse.cdt.core 1 0 2025-12-19 12:39:13.586
 !MESSAGE Indexed 'Led_switch_exti0' (7 sources, 66 headers) in 0.448 sec: 3,437 declarations; 5,804 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.022%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-12-19 13:04:18.833
+!MESSAGE Indexed 'extisoftwareflag.c' (3 sources, 53 headers) in 0.163 sec: 1,954 declarations; 2,863 references; 0 unresolved inclusions; 2 syntax errors; 2 unresolved names (0.042%)

@@ -1,0 +1,10 @@
+09:23:16 **** Incremental Build of configuration Debug for project hal_ledd ****
+make -j28 all 
+arm-none-eabi-size  hal_ledd.elf 
+   text	   data	    bss	    dec	    hex	filename
+  35660	    124	   4124	  39908	   9be4	hal_ledd.elf
+Finished building: default.size.stdout
+ 
+
+09:23:16 Build Finished. 0 errors, 0 warnings. (took 334ms)
+
