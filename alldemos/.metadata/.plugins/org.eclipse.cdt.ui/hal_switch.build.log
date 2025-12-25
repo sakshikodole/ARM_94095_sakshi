@@ -1,0 +1,10 @@
+10:46:31 **** Incremental Build of configuration Debug for project hal_switch ****
+make -j28 all 
+arm-none-eabi-size  hal_switch.elf 
+   text	   data	    bss	    dec	    hex	filename
+   5936	     12	   1572	   7520	   1d60	hal_switch.elf
+Finished building: default.size.stdout
+ 
+
+10:46:31 Build Finished. 0 errors, 0 warnings. (took 221ms)
+
