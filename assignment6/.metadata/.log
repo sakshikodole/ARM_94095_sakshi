@@ -114,3 +114,27 @@ Command-line arguments:  -os win32 -ws win32 -arch x86_64
 
 !ENTRY org.eclipse.cdt.core 1 0 2025-12-22 12:23:44.446
 !MESSAGE Indexed 'toggleled' (19 sources, 81 headers) in 0.669 sec: 4,436 declarations; 18,025 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.0089%)
+!SESSION 2025-12-23 08:20:28.612 -----------------------------------------------
+eclipse.buildId=Version 1.19.0
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.core.resources 2 10035 2025-12-23 08:20:50.975
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2025-12-23 08:20:54.946
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2025-12-23 08:20:54.948
+!MESSAGE Log4j2 initialized with config file C:\Users\sakshi\Desktop\internshipdata\ARM_94095_sakshi\assignment6\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2025-12-23 08:20:59.953
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-12-23 08:22:32.414
+!MESSAGE Indexed 'toggleled.c' (5 sources, 64 headers) in 2.4 sec: 3,423 declarations; 5,709 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.022%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-12-23 08:28:03.264
+!MESSAGE Indexed 'HAL_EXINTR' (19 sources, 114 headers) in 6.08 sec: 10,357 declarations; 34,265 references; 5 unresolved inclusions; 875 syntax errors; 1,192 unresolved names (2.6%)

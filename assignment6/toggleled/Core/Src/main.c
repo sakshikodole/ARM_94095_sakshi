@@ -96,7 +96,7 @@ int main(void)
   while (1)
   {
     /* USER CODE END WHILE */
-	  GPIOD->ODR ^ = (GPIO_PIN_12|GPIO_PIN_13|GPIO_PIN_14|GPIO_PIN_15);
+	  GPIOD->ODR ^=(GPIO_PIN_12|GPIO_PIN_13|GPIO_PIN_14|GPIO_PIN_15);
 	  HAL_Delay(1000);
 
     /* USER CODE BEGIN 3 */

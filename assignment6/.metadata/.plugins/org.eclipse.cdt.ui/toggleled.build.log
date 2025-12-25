@@ -1,17 +1,10 @@
-12:30:25 **** Incremental Build of configuration Debug for project toggleled ****
+08:30:01 **** Incremental Build of configuration Debug for project toggleled ****
 make -j28 all 
-arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
-arm-none-eabi-gcc -o "toggleled.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\sakshi\Desktop\internshipdata\ARM_94095_sakshi\assignment6\toggleled\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="toggleled.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: toggleled.elf
- 
 arm-none-eabi-size  toggleled.elf 
-arm-none-eabi-objdump -h -S toggleled.elf  > "toggleled.list"
    text	   data	    bss	    dec	    hex	filename
-   6008	     12	   1572	   7592	   1da8	toggleled.elf
+   5924	     12	   1572	   7508	   1d54	toggleled.elf
 Finished building: default.size.stdout
  
-Finished building: toggleled.list
- 
 
-12:30:25 Build Finished. 0 errors, 0 warnings. (took 817ms)
+08:30:01 Build Finished. 0 errors, 0 warnings. (took 209ms)
 

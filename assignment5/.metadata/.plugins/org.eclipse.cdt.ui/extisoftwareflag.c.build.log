@@ -1,0 +1,10 @@
+12:44:01 **** Incremental Build of configuration Debug for project extisoftwareflag.c ****
+make -j28 all 
+arm-none-eabi-size  extisoftwareflag.c.elf 
+   text	   data	    bss	    dec	    hex	filename
+   1328	      4	   1572	   2904	    b58	extisoftwareflag.c.elf
+Finished building: default.size.stdout
+ 
+
+12:44:01 Build Finished. 0 errors, 0 warnings. (took 239ms)
+

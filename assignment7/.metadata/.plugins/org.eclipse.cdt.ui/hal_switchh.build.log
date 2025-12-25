@@ -1,0 +1,10 @@
+09:37:22 **** Incremental Build of configuration Debug for project hal_switchh ****
+make -j28 all 
+arm-none-eabi-size  hal_switchh.elf 
+   text	   data	    bss	    dec	    hex	filename
+   5984	     12	   1572	   7568	   1d90	hal_switchh.elf
+Finished building: default.size.stdout
+ 
+
+09:37:22 Build Finished. 0 errors, 0 warnings. (took 213ms)
+

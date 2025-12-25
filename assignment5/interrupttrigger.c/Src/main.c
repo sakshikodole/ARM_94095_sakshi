@@ -24,6 +24,8 @@
   #warning "FPU is not initialized, but the project is compiling for an FPU. Please initialize the FPU before use."
 #endif
 
+extern volatile int f;
+extern volatile int led;
 
 int main(void)
 {
@@ -31,17 +33,17 @@ int main(void)
 	extint_init();
 	while(1)
 	{
-					led_on(12);
-					DelayMs(200);
-					led_off(12);
-					DelayMs(200);
+	if(f == 1)
+	{
+		led ^= 1;
+		//led_toggle(14);
+		//DelayMs(250);
+		if(led)
+			led_on(14);
+		else
+			led_off(14);
 
+		f = 0;
+	}
 	}
 }
-
-
-
-
-
-
-

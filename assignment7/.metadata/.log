@@ -1,0 +1,90 @@
+!SESSION 2025-12-23 08:43:25.180 -----------------------------------------------
+eclipse.buildId=Version 1.19.0
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2025-12-23 08:43:42.498
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2025-12-23 08:43:42.500
+!MESSAGE Log4j2 initialized with config file C:\Users\sakshi\Desktop\internshipdata\ARM_94095_sakshi\assignment7\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2025-12-23 08:43:44.503
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-12-23 08:46:46.154
+!MESSAGE Indexed 'hal_switchh' (19 sources, 81 headers) in 2.5 sec: 4,442 declarations; 18,507 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.0087%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-12-23 08:54:08.070
+!MESSAGE Indexed 'hal_switchh' (19 sources, 81 headers) in 0.644 sec: 4,437 declarations; 17,969 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.0089%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-12-23 08:56:18.093
+!MESSAGE Indexed 'HAL_EXTI' (19 sources, 81 headers) in 1.37 sec: 4,442 declarations; 18,507 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.0087%)
+
+!ENTRY org.eclipse.cdt.ui 4 0 2025-12-23 09:33:17.075
+!MESSAGE Error in CDT UI during reconcile
+!STACK 1
+C Model Exception: C Model Status [Element main.c does not exist.]
+	at org.eclipse.cdt.internal.core.model.CElement.newNotPresentException(CElement.java:485)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.makeConsistent(TranslationUnit.java:583)
+	at org.eclipse.cdt.internal.core.model.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:65)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.execute(CModelOperation.java:346)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.run(CModelOperation.java:613)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.runOperation(CModelOperation.java:641)
+	at org.eclipse.cdt.internal.core.model.WorkingCopy.reconcile(WorkingCopy.java:365)
+	at org.eclipse.cdt.internal.ui.text.CReconcilingStrategy.reconcile(CReconcilingStrategy.java:79)
+	at org.eclipse.cdt.internal.ui.text.CReconcilingStrategy.reconcile(CReconcilingStrategy.java:64)
+	at org.eclipse.cdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:89)
+	at org.eclipse.cdt.internal.ui.text.CCompositeReconcilingStrategy.reconcile(CCompositeReconcilingStrategy.java:90)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:78)
+	at org.eclipse.cdt.internal.ui.text.CReconciler.process(CReconciler.java:346)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:207)
+!SUBENTRY 1 org.eclipse.cdt.core 4 969 2025-12-23 09:33:17.076
+!MESSAGE Element main.c does not exist.
+
+!ENTRY com.st.stm32cube.ide.mcu.debug.launch 2 0 2025-12-23 09:38:04.248
+!MESSAGE Won't launch debug session since we failed to locate the binary.
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-12-23 09:43:30.111
+!MESSAGE Indexed 'interrupttriggerexti0' (19 sources, 81 headers) in 2.09 sec: 4,442 declarations; 18,507 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.0087%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-12-23 10:24:55.214
+!MESSAGE Indexed 'extisoftwareflag' (19 sources, 81 headers) in 1.83 sec: 4,442 declarations; 18,507 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.0087%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-12-23 10:41:57.732
+!MESSAGE Indexed 'extisoftwareflag' (19 sources, 81 headers) in 0.641 sec: 4,444 declarations; 17,996 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.0089%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-12-23 10:52:21.420
+!MESSAGE Indexed 'extifunctionality' (19 sources, 81 headers) in 2.87 sec: 4,442 declarations; 18,507 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.0087%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-12-23 11:17:31.813
+!MESSAGE Indexed 'toggleled' (19 sources, 114 headers) in 2.25 sec: 10,349 declarations; 34,180 references; 5 unresolved inclusions; 859 syntax errors; 1,191 unresolved names (2.6%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-12-23 11:20:52.534
+!MESSAGE Indexed 'single_led' (19 sources, 115 headers) in 1.26 sec: 10,355 declarations; 36,022 references; 1 unresolved inclusions; 92 syntax errors; 240 unresolved names (0.51%)
+!SESSION 2025-12-23 14:10:38.115 -----------------------------------------------
+eclipse.buildId=Version 1.19.0
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2025-12-23 14:10:47.888
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2025-12-23 14:10:47.890
+!MESSAGE Log4j2 initialized with config file C:\Users\sakshi\Desktop\internshipdata\ARM_94095_sakshi\assignment7\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2025-12-23 14:10:54.700
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-12-23 14:12:11.711
+!MESSAGE Indexed 'HAL_USART2' (19 sources, 81 headers) in 1.91 sec: 4,442 declarations; 18,507 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.0087%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-12-23 14:37:16.644
+!MESSAGE Indexed 'HAlL_USART2' (0 sources, 0 headers) in 0 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-12-23 14:37:24.744
+!MESSAGE Indexed 'HAL_USART2' (21 sources, 119 headers) in 1.91 sec: 11,383 declarations; 40,755 references; 7 unresolved inclusions; 1,020 syntax errors; 1,302 unresolved names (2.4%)

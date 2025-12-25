@@ -1,0 +1,10 @@
+14:20:28 **** Incremental Build of configuration Debug for project interrupttriggerexti0 ****
+make -j28 all 
+arm-none-eabi-size  interrupttriggerexti0.elf 
+   text	   data	    bss	    dec	    hex	filename
+   6276	     16	   1568	   7860	   1eb4	interrupttriggerexti0.elf
+Finished building: default.size.stdout
+ 
+
+14:20:28 Build Finished. 0 errors, 0 warnings. (took 276ms)
+

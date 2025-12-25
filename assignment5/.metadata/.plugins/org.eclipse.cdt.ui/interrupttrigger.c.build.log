@@ -1,10 +1,13 @@
-12:59:02 **** Incremental Build of configuration Debug for project interrupttrigger.c ****
+12:44:01 **** Incremental Build of configuration Debug for project interrupttrigger.c ****
 make -j28 all 
-arm-none-eabi-size  interrupttrigger.c.elf 
-   text	   data	    bss	    dec	    hex	filename
-   1404	      4	   1564	   2972	    b9c	interrupttrigger.c.elf
-Finished building: default.size.stdout
- 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-gcc -o "interrupttrigger.c.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\sakshi\Desktop\internshipdata\ARM_94095_sakshi\assignment5\interrupttrigger.c\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="interrupttrigger.c.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+C:/ST/STM32CubeIDE_1.19.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/ld.exe: ./Src/main.o: in function `main':
+C:/Users/sakshi/Desktop/internshipdata/ARM_94095_sakshi/assignment5/interrupttrigger.c/Debug/../Src/main.c:36:(.text.main+0x40): undefined reference to `f'
+C:/ST/STM32CubeIDE_1.19.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/Users/sakshi/Desktop/internshipdata/ARM_94095_sakshi/assignment5/interrupttrigger.c/Debug/../Src/main.c:36:(.text.main+0x44): undefined reference to `led'
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:63: interrupttrigger.c.elf] Error 1
+"make -j28 all" terminated with exit code 2. Build might be incomplete.
 
-12:59:02 Build Finished. 0 errors, 0 warnings. (took 224ms)
+12:44:02 Build Failed. 3 errors, 0 warnings. (took 590ms)
 
