@@ -1,0 +1,35 @@
+!SESSION 2026-01-02 08:26:13.083 -----------------------------------------------
+eclipse.buildId=Version 1.19.0
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  C:\Users\sakshi\Desktop\internshipdata\ARM_94095_sakshi\smart_env_monitor\project\.cproject
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 C:\Users\sakshi\Desktop\internshipdata\ARM_94095_sakshi\smart_env_monitor\project\.cproject
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2026-01-02 08:26:53.275
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2026-01-02 08:26:53.276
+!MESSAGE Log4j2 initialized with config file C:\Users\sakshi\Desktop\internshipdata\ARM_94095_sakshi\smart_env_monitor\project\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2026-01-02 08:26:56.586
+!MESSAGE Started RMI Server, listening on port 41337
+!SESSION 2026-01-02 08:27:37.792 -----------------------------------------------
+eclipse.buildId=Version 1.19.0
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  D:\internn\project\.cproject
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 D:\internn\project\.cproject
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2026-01-02 08:27:45.022
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2026-01-02 08:27:45.022
+!MESSAGE Log4j2 initialized with config file C:\Users\sakshi\Desktop\internshipdata\ARM_94095_sakshi\smart_env_monitor\project\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2026-01-02 08:27:47.709
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2026-01-02 08:27:52.358
+!MESSAGE Indexed 'project' (29 sources, 163 headers) in 3.35 sec: 15,297 declarations; 63,095 references; 9 unresolved inclusions; 1,399 syntax errors; 3,082 unresolved names (3.8%)
